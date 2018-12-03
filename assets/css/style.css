@@ -1,0 +1,14 @@
+.header {
+width: 960px;
+height: 200px;
+text-align: center;
+font-family: 'Georgia';
+background: #ffffff;
+}
+
+.name {
+    font-display: "Georgia";
+    background: #4aaaa5;
+
+
+}
