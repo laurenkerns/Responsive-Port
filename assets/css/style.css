@@ -58,6 +58,7 @@
      margin-top: 2%;
      margin-bottom: 2%;
      padding: 2%;
+     overflow: auto;
  
  
  }
@@ -89,7 +90,7 @@
 
  }
 
- img {
+ img.index {
      width: 30%;
      height: auto;
      display: inline-block;
@@ -111,17 +112,20 @@
 
 img.portfolio {
     width: 300px;
-    height: auto;
+    height: 300px;
 }
 
 .portfolioImage1 {
     position: relative;
-    border: solid 2px black;
+    width:400px;
+    float: left;
+    margin: 5px;
+    border:solid 1px black;
 }
 
 .portfolioTitle {
     Height: 30px;
-    width: 300px;
+    width: 390px;
     background: #4aaaa5;
     text-align: center;
     color: #ffffff;
