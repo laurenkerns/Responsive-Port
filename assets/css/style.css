@@ -1,14 +1,135 @@
-.header {
-width: 960px;
-height: 200px;
-text-align: center;
-font-family: 'Georgia';
-background: #ffffff;
+.body {
+    background-image: url("../images/gravel.png");
+ }
+
+ .header {
+ height: 100px;
+ font-family: 'Georgia';
+ background: #ffffff;
+ margin-top: 0;
+ margin-bottom: 0;
+ margin: 0 auto;
+ border-bottom: 3px solid #cccccc;
+ }
+ 
+ .header2 {
+    width: 960px;
+    height: 100px;
+    margin: 0 auto;
+ }
+
+ .name {
+     font-family: 'Georgia';
+     background: #4aaaa5;
+     color:#ffffff;
+     width: 200px;
+     height: 75px;
+     float: left;
+     text-align: center;
+     padding-top: 25px;
+     font-size: 30px;
+ }
+ 
+ #navigation {
+     font-family: 'Arial';
+     float: right;
+     padding-top: 75px;
+     text-align: center; 
+     letter-spacing: 6px;
+ 
+ }
+
+ a:link {
+     color: #777777;
+     text-decoration: none;
+     font-family: 'Arial';
+     font-size: 20px;
+ }
+ 
+ .main {
+     font-family: 'Arial';
+     color: #777777;
+     background: #ffffff;
+     width: 960px;
+     margin: 0 auto;
+     font-size: 20px;  
+     line-height: 1.5; 
+     border: 2px solid #dddddd;
+     margin-top: 2%;
+     margin-bottom: 2%;
+     padding: 2%;
+ 
+ 
+ }
+ 
+ .h2 {
+     color: #4aaaa5;
+     font-size: 30px;
+     font-family: 'georgia';
+     border-bottom: 3px solid #dddddd;
+     padding-top: 5px;
+     padding-left: 15px;
+     padding-bottom: 15px;
+     margin-top: 10px;
+ }
+ 
+ .footer {
+     height: 50px;
+     background: #666666;
+     text-align: center;
+     font-size: 10px;
+     border-top: 8px solid #4aaaa5;
+     color: #dddddd;
+     padding-top: 10px;
+ }
+ 
+ input {
+     width: 100%;
+     border:1px solid #dddddd;
+
+ }
+
+ img {
+     width: 30%;
+     height: auto;
+     display: inline-block;
+
+ }
+
+#messageBox{
+    height: 200px;
+
 }
 
-.name {
-    font-display: "Georgia";
+#submit{
+    width: 75px;
+    height: 30px;
+    font-family: 'Arial';
     background: #4aaaa5;
+    color: #ffffff;
+}
+
+img.portfolio {
+    width: 300px;
+    height: auto;
+}
+
+.portfolioImage1 {
+    position: relative;
+    border: solid 2px black;
+}
+
+.portfolioTitle {
+    Height: 30px;
+    width: 300px;
+    background: #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+    right: 0px;
+    left: 0px;
+    position: absolute;
+    bottom:20px;
+    padding: 5px;
 
 
 }
